@@ -7,6 +7,7 @@ fun main() {
     val brokenStrings = character.rangeTo(character)
     val all = 'A'..'Z'
 
+
     for (letter in brokenStrings) {
         if (all.contains(letter)) print("$letter is an alphabet.")
         else {
